@@ -29,7 +29,7 @@ This plugin supports both CocoaPods and Swift Package Manager (SPM) for iOS depe
   s.exclude_files = 'flutter_chrome_cast/Sources/flutter_chrome_cast/GoogleCastPlugin.h', 'flutter_chrome_cast/Sources/flutter_chrome_cast/GoogleCastPlugin.m'
   s.dependency 'Flutter'
   s.platform = :ios, '15.0'
-  s.ios.deployment_target  = '15.0'
+  s.ios.deployment_target  = '16.0'
   # 4.8.4+ XCFramework includes arm64 simulator; required for Apple Silicon iOS 26+ simulators.
   s.dependency 'google-cast-sdk', '~> 4.8.4'
   s.dependency 'Protobuf'
